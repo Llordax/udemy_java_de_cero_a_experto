@@ -1,0 +1,16 @@
+content-types/org.eclipse.compare.wordDoc/charset=ISO-8859-1
+content-types/org.eclipse.core.runtime.xml/charset=ISO-8859-1
+content-types/org.eclipse.egit.contenttype.gitignore/charset=ISO-8859-1
+content-types/org.eclipse.egit.patch/charset=ISO-8859-1
+content-types/org.eclipse.jdt.core.JARManifest/charset=ISO-8859-1
+content-types/org.eclipse.jdt.core.javaSource/charset=ISO-8859-1
+content-types/org.eclipse.ltk.core.refactoring.refactoringHistory/charset=ISO-8859-1
+content-types/org.eclipse.ltk.core.refactoring.refactoringIndex/charset=ISO-8859-1
+content-types/org.eclipse.m2e.core.pomFile/charset=ISO-8859-1
+content-types/org.eclipse.mylyn.wikitext/charset=ISO-8859-1
+content-types/org.eclipse.team.genericeditor.diff.extension.patch/charset=ISO-8859-1
+content-types/org.eclipse.ui.views.log.log/charset=ISO-8859-1
+content-types/org.eclipse.wildwebdeveloper.rnc/charset=ISO-8859-1
+content-types/org.eclipse.wst.xml.core.xmlsource/charset=ISO-8859-1
+content-types/org.eclipse.wst.xml.core.xslsource/charset=ISO-8859-1
+eclipse.preferences.version=1

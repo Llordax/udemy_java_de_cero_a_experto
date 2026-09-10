@@ -1,0 +1,9 @@
+package udemy.allorden.java.swing;
+
+public class Window05CopyText {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

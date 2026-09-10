@@ -1,0 +1,63 @@
+package udemy.allorden.interfaces.repositorio;
+
+import java.util.ArrayList;
+import java.util.List;
+import udemy.allorden.interfaces.modelo.BaseEntity;
+import udemy.allorden.interfaces.repositorio.excepciones.*;
+
+public abstract class AbstractListRepositorio<T extends BaseEntity> implements OrdenablePaginableCrudRepositorio<T> {
+
+	protected List<T> dataSource = new ArrayList<>();
+
+	@Override
+	public List<T> listar() {
+		return dataSource;
+	}
+
+	@Override
+	public T porId(Integer id) throws LecturaAccesoDatoException {
+		if(id == null || id <= 0)
+			throw new LecturaAccesoDatoException("Id inválido debe ser > 0");
+			
+		T resultado = null;
+		for(T cli : dataSource) 
+			if(cli.getId() != null && cli.getId().equals(id)) {
+				resultado = cli;
+				break;
+			}
+		
+		if(resultado == null)
+			throw new LecturaAccesoDatoException("No existe el registro con id: " + id);
+		
+		return resultado;
+	}
+
+	@Override
+	public void crear(T t) throws EscrituraAccesoDatoException{
+		if(t == null)
+			throw new EscrituraAccesoDatoException("Error al insertar un objeto null");
+		
+		if(dataSource.contains(t))
+			throw new RegistroDuplicadoAccesoDatoException("Error el objeto con id " + 
+					t.getId() + " existe en el repositorio");
+		
+		dataSource.add(t);
+	}
+
+	@Override
+	public void eliminar(Integer id) throws LecturaAccesoDatoException {
+		dataSource.remove(porId(id));
+
+	}
+
+	@Override
+	public List<T> listar(int desde, int hasta) {
+		return dataSource.subList(desde, hasta);
+	}
+
+	@Override
+	public int total() {
+		return dataSource.size();
+	}
+	
+}

@@ -1,0 +1,21 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Window01Button extends JFrame{
+	
+	public Window01Button() {
+		super("Ejemplo de Botón y eventos");
+		
+		JButton button = new JButton("Aceptar");
+		getContentPane().add(button);
+		
+		setSize(200, 100);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args) {
+		new Window01Button();
+	}
+
+}

@@ -1,0 +1,107 @@
+package udemy.allorden.java.swing;
+
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.HeadlessException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Window09Calculator2 extends JFrame implements ActionListener {
+	
+	private Container container;
+	private String total ="";
+	private String operacion = "";
+	private int aux;
+	
+	public Window09Calculator2() throws HeadlessException {
+		super("Calculadora2");
+		
+		Container container = getContentPane();
+		container.setLayout(new BorderLayout(5, 5));
+		
+		JPanel panelTop = new JPanel(new GridLayout(2, 1, 5, 5));
+		JPanel panelCenter = new JPanel(new GridLayout(5, 3, 5, 5));
+		JPanel panelRight = new JPanel(new GridLayout(5, 1, 5, 5));
+		
+		container.add(panelTop, BorderLayout.NORTH);
+		container.add(panelCenter, BorderLayout.CENTER);
+		container.add(panelRight, BorderLayout.EAST);
+		
+		JButton buttonAC = new JButton("AC");
+		JButton buttonAdd = new JButton("+");
+		JButton buttonSus = new JButton("-");
+		JButton buttonDiv = new JButton("/");
+		JButton buttonMult = new JButton("*");
+		JButton buttonEqual = new JButton("=");
+		
+		panelCenter.add(buttonAC);
+		panelCenter.add(new JLabel());
+		panelCenter.add(new JLabel());
+		
+		for (int i= 9; i >= 0; i--) {
+			JButton button = new JButton(String.valueOf(i));
+			panelCenter.add(button);
+			
+			button.addActionListener(e -> {
+				String value = e.getActionCommand();
+				total += value;
+				System.out.println(total);
+			});
+		}
+		
+		panelRight.add(buttonAdd);
+		panelRight.add(buttonSus);
+		panelRight.add(buttonDiv);
+		panelRight.add(buttonMult);
+		panelRight.add(buttonEqual);
+		
+		buttonAdd.addActionListener(this);
+		buttonSus.addActionListener(this);
+		buttonDiv.addActionListener(this);
+		buttonMult.addActionListener(this);
+		
+		buttonEqual.addActionListener(e -> {
+			int value = 0;
+			int numA = this.aux;
+			int numB = Integer.parseInt(this.total);
+			
+			switch (this.operacion) {
+				case "+" -> value = numA + numB;
+				case "-" -> value = numA - numB;
+				case "/" -> {
+					if (numB == 0)
+						throw new ArithmeticException("No se puede dividir por 0, Infinito");
+					
+					value = numA / numB;
+				}
+				case "*" -> value = numA * numB;
+				default -> value;
+			}
+			
+			total = String.valueOf(value);
+		});
+
+		pack();
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args) {
+		new Window09Calculator2();
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		this.operacion = e.getActionCommand();
+		this.aux = Integer.parseInt(this.total);
+		this.total = "";
+		
+	}
+
+}

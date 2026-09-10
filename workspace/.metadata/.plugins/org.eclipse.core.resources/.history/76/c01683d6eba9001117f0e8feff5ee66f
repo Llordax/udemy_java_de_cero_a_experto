@@ -1,0 +1,16 @@
+package udemy.allorden.java.jdbc.service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import udemy.allorden.java.jdbc.modelo.Categoria;
+import udemy.allorden.java.jdbc.modelo.Producto;
+
+public interface Service {
+	List<Producto> listar() throws SQLException;
+	Producto porId(Long id) throws SQLException;;
+	Producto guardar(Producto producto) throws SQLException;;
+	void eliminar(Long id) throws SQLException;;
+	void guardarProductoConCategoria(Producto producto, Categoria categoria) throws SQLException;;
+
+}

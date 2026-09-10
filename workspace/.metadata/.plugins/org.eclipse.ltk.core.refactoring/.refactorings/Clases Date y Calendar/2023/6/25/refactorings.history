@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;tarea6&apos; to &apos;tarea&apos;&#x0D;&#x0A;- Original project: &apos;Clases Date y Calendar&apos;&#x0D;&#x0A;- Original element: &apos;Clases Date y Calendar/src/tarea6&apos;&#x0D;&#x0A;- Renamed element: &apos;Clases Date y Calendar/src/tarea&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;tarea6&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;tarea6" name="tarea" qualified="false" references="true" stamp="1687531472530" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+public class Window01Button extends JFrame{
+	
+	public Window01Button() {
+		super("Ejemplo de Botón y eventos");
+		
+		setSize(200, 100);
+	}
+	
+	public static void main(String[] args) {
+		new Window01Button();
+	}
+
+}

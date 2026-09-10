@@ -1,0 +1,46 @@
+package udemy.allorden.java.jdbc.repositorio;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import udemy.allorden.java.jdbc.modelo.Categoria;
+
+public class CategoriaRepositorioImpl implements Repositorio<Categoria> {
+
+	private Connection connection;
+	
+	public CategoriaRepositorioImpl() {
+		super();
+	}
+
+	public CategoriaRepositorioImpl(Connection connection) {
+		super();
+		this.connection = connection;
+	}
+
+	@Override
+	public List<Categoria> listar() throws SQLException {
+		List<Categoria> categorias = new ArrayList<>();
+		return null;
+	}
+
+	@Override
+	public Categoria porId(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Categoria guardar(Categoria t) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void eliminar(Long id) throws SQLException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

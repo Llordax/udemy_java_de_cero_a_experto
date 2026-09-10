@@ -1,0 +1,28 @@
+package udemy.allorden.java.swing;
+
+import java.awt.Container;
+import java.awt.HeadlessException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+
+public class Window07CurrencyConverter extends JFrame implements ActionListener {
+
+	private Container panel;
+	private JButton buttonEUR, buttonUSD;
+	private JTextField mount;
+	
+	public Window07CurrencyConverter() throws HeadlessException {
+		super("Conversor de monedas");
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

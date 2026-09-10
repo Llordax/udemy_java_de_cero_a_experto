@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;UDEMY_JAVA_PERSISTANCE_LIBRERIA_HIBERNATE&apos;" deleteContents="false" description="Delete resource &apos;UDEMY_JAVA_PERSISTANCE_LIBRERIA_HIBERNATE&apos;" element1="/UDEMY_JAVA_PERSISTANCE_LIBRERIA_HIBERNATE" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1739314465132"/>
+</session>

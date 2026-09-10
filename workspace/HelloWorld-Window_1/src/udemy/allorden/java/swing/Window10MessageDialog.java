@@ -1,0 +1,32 @@
+package udemy.allorden.java.swing;
+
+import java.awt.Container;
+import java.awt.FlowLayout;
+import java.awt.HeadlessException;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class Window10MessageDialog extends JFrame {
+	
+	private Container container;
+	
+	public Window10MessageDialog() throws HeadlessException {
+		super("Ventana de mensaje/alerta: Error");
+		
+		container = getContentPane();
+		container.setLayout(new FlowLayout());
+		
+		JOptionPane.showMessageDialog(null, "Debe introducir datos en los campos"
+				, "Error de entrada", JOptionPane.ERROR_MESSAGE);
+		
+		setSize(300, 200);
+		setVisible(true);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+
+	public static void main(String[] args) {
+		new Window10MessageDialog();
+	}
+
+}

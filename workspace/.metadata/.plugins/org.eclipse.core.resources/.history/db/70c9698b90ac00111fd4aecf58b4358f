@@ -1,0 +1,21 @@
+package udemy.allorden.java.swing;
+
+import java.awt.HeadlessException;
+
+import javax.swing.JFrame;
+
+public class Window06Counter extends JFrame {
+	
+	private int counter;
+	privarte JButton = new JButton("Count")
+	
+	public Window06Counter() throws HeadlessException {
+		super("Counter");
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

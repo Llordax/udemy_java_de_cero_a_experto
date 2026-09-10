@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class HelloWorldWindow {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static void createAndShowWindow() {
+		JFrame frame = new JFrame("Hola mundo Swing!");
+		JLabel label = new JLabel("Hola mundo!");
+		
+		frame.getContentPane().add(label);
+	}
+
+}

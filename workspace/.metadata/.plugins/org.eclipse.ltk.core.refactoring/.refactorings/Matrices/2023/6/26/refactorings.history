@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;EjemploMatricesSumarFilasColumnas.java&apos; to &apos;Matrices/src/manejoMatrices&apos;&#x0D;&#x0A;- Original project: &apos;Matrices&apos;&#x0D;&#x0A;- Destination element: &apos;Matrices/src/manejoMatrices&apos;&#x0D;&#x0A;- Original element: &apos;EjemploMatricesSumarFilasColumnas.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;manejoMatrices" element1="/src&lt;{EjemploMatricesSumarFilasColumnas.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1687894261573" units="1" version="1.0"/>
+</session>

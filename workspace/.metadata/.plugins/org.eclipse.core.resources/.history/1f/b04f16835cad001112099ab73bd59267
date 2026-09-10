@@ -1,0 +1,17 @@
+package udemy.allorden.java.swing;
+
+import java.awt.HeadlessException;
+
+import javax.swing.JFrame;
+
+public class Window10MessageDialog extends JFrame {
+	
+	public Window10MessageDialog() throws HeadlessException {
+		super("Ventana de mensaje/alerta: Error");
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

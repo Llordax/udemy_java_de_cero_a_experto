@@ -1,0 +1,33 @@
+package udemy.allorden.java.jdbc;
+
+import java.sql.SQLException;
+import java.util.Date;
+
+import udemy.allorden.java.jdbc.modelo.Categoria;
+import udemy.allorden.java.jdbc.modelo.Producto;
+import udemy.allorden.java.jdbc.service.CatalogoServicio;
+import udemy.allorden.java.jdbc.service.Service;
+
+public class EjemploJDBC {
+
+	public static void main(String[] args) throws SQLException {
+		Service servicio = new CatalogoServicio();	
+		System.out.println("================= listar =================");
+		servicio.listar().forEach(System.out::println);
+		
+		System.out.println("================= Insertar nueva categoria =================");
+		Categoria categoria = new Categoria();
+		categoria.setNombre("Iluminación");
+					
+		System.out.println("================= insertar nuevo producto =================");
+		Producto producto = new Producto();
+		producto.setNombre("Lámpara RGB escritorio");
+		producto.setPrecio(99);
+		producto.setFechaRegistro(new Date());
+		producto.setSku("zyxwv9876");
+		servicio.guardarProductoConCategoria(producto, categoria);		
+		System.out.println("Producto guardado con éxito: " + producto.getId());			
+		servicio.listar().forEach(System.out::println);
+					
+	}
+}

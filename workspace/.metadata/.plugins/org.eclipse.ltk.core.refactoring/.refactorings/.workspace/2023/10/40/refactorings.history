@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 0 source folders to &apos;Flujos de control&apos;&#x0D;&#x0A;- Destination element: &apos;Flujos de control&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move source folders" destination="=Flujos de control" flags="6" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveRoots" roots="0" stamp="1696241617626" version="1.0"/>
+</session>

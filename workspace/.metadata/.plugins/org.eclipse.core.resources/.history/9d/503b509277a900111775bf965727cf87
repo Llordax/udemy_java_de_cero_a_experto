@@ -1,0 +1,104 @@
+package udemy.allorden.java.jdbc.repositorio;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import udemy.allorden.java.jdbc.modelo.Usuario;
+import udemy.allorden.java.jdbc.util.ConexionBD;
+
+public class UsuarioRepositorioImpl implements Repositorio<Usuario>{
+
+	private Connection getConnection() throws SQLException {
+		return ConexionBD.getConnection();
+	}
+	
+	@Override
+	public List<Usuario> listar() {
+		List<Usuario> usuarios = new ArrayList<>();
+		
+		try (Statement stmt = getConnection().createStatement();
+				ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios")) {
+			
+			while (rs.next()) {
+				Usuario usuario = crearUsurio(rs);
+				usuarios.add(usuario);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return usuarios;
+	}
+
+	@Override
+	public Usuario porId(Long id) {
+		Usuario usuario = null;
+		
+		try (PreparedStatement ps = getConnection()
+				.prepareStatement("SELECT * FROM usuarios WHERE id = ?")) {
+			ps.setLong(1, id);
+			
+			try (ResultSet rs = ps.executeQuery()) {
+				if (rs.next())
+					usuario = crearUsurio(rs);		
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return usuario;
+	}
+
+	@Override
+	public Usuario guardar(Usuario usuario) {
+		String sql;
+		
+		if (usuario.getId() != null && usuario.getId() > 0)
+			sql = "UPDATE usuarios SET username=?, password=?, "
+					+ "email=? WHERE id=?";
+		else
+			sql = "INSERT INTO usuarios(username, password,"
+					+ " email) VALUES(?,?,?)";
+		
+		try (PreparedStatement ps = getConnection().prepareStatement(sql)) {
+			ps.setString(1, usuario.getUsername());
+			ps.setString(3, usuario.getPassword());
+			ps.setString(3, usuario.getEmail());
+			
+			if (usuario.getId() != null && usuario.getId() > 0)
+				ps.setLong(4, usuario.getId());
+			
+			ps.executeUpdate();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void eliminar(Long id) {
+		try (PreparedStatement ps = getConnection()
+				.prepareStatement("DELETE FROM usuarios WHERE id=?")) {
+			ps.setLong(1, id);
+			ps.executeUpdate();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private Usuario crearUsurio(ResultSet rs) throws SQLException {
+		Usuario usuario = new Usuario();
+		usuario.setId(rs.getLong("id"));
+		usuario.setUsername(rs.getString("username"));
+		usuario.setPassword(rs.getString("password"));
+		usuario.setEmail(rs.getString("email"));
+		
+		return usuario;
+	}
+}

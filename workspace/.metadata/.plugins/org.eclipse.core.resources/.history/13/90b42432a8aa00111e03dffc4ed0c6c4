@@ -1,0 +1,36 @@
+package udemy.allorden.java.jdbc;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.Date;
+
+import udemy.allorden.java.jdbc.modelo.Categoria;
+import udemy.allorden.java.jdbc.modelo.Producto;
+import udemy.allorden.java.jdbc.repositorio.CategoriaRepositorioImpl;
+import udemy.allorden.java.jdbc.repositorio.ProductoRepositorioImpl;
+import udemy.allorden.java.jdbc.repositorio.Repositorio;
+import udemy.allorden.java.jdbc.util.ConexionBD;
+
+public class EjemploJDBC {
+
+	public static void main(String[] args) throws SQLException {
+		Servicio servicio = new CatalogoServicio();	
+		System.out.println("================= Insertar nueva categoria =================");
+		Categoria categoria = new Categoria();
+		categoria.setNombre("Electrohogar");
+					
+		System.out.println("================= listar =================");
+		repositorio.listar().forEach(System.out::println);
+				
+		System.out.println("================= insertar nuevo producto =================");
+		Producto producto = new Producto();
+		producto.setNombre("Refrigerador Samsung");
+		producto.setPrecio(4999);
+		producto.setFechaRegistro(new Date());
+		producto.setSku("zyxw9876");
+					
+		System.out.println("Producto guardado con éxito: " + producto.getId());			
+		repositorio.listar().forEach(System.out::println);
+					
+	}
+}

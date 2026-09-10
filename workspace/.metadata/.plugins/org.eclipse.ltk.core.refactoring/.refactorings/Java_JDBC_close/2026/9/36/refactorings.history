@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;opcion&apos; in &apos;udemy.allorden.java.jdbc.gi.MantenedorUsuariosJdbc.main(...)&apos; to &apos;opcionIndice&apos;&#x0D;&#x0A;- Original project: &apos;Java_JDBC_close&apos;&#x0D;&#x0A;- Original element: &apos;udemy.allorden.java.jdbc.gi.MantenedorUsuariosJdbc.main(String[]).opcion&apos;&#x0D;&#x0A;- Renamed element: &apos;opcion&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;opcion&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;udemy.allorden.java.jdbc.gi{MantenedorUsuariosJdbc.java[MantenedorUsuariosJdbc~main~\[QString;@opcion!636!650!640!645!I!0!false" name="opcionIndice" references="true" stamp="1788621344934" version="1.0"/>
+</session>
