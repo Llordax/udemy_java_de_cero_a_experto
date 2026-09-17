@@ -119,7 +119,7 @@
 		<item key="showtypes" value="true"/>
 	</section>
 	<section name="DialogBounds_OverrideMethodDialog">
-		<item key="DIALOG_X_ORIGIN" value="214"/>
+		<item key="DIALOG_X_ORIGIN" value="116"/>
 		<item key="DIALOG_Y_ORIGIN" value="111"/>
 		<item key="DIALOG_WIDTH" value="658"/>
 		<item key="DIALOG_HEIGHT" value="661"/>
@@ -181,7 +181,7 @@
 		</section>
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="445"/>
+		<item key="DIALOG_X_ORIGIN" value="74"/>
 		<item key="DIALOG_Y_ORIGIN" value="201"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="500"/>
@@ -209,7 +209,7 @@
 		<item key="MakeSynchronized" value="false"/>
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="98"/>
+		<item key="DIALOG_X_ORIGIN" value="33"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="741"/>
 		<item key="DIALOG_HEIGHT" value="816"/>

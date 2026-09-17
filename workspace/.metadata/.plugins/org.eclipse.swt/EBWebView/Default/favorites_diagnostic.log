@@ -1105,3 +1105,390 @@
 2026-09-10 21:33:03.534: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-10 21:33:03.534: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-10 21:33:03.724: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 10:57:17.443: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 10:57:17.443: [INFO] Profiles total count: 1
+2026-09-12 10:57:17.443: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 10:57:17.443: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 10:57:17.443: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 10:57:17.443: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 10:57:17.443: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 10:57:17.443: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 10:57:51.623: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 10:59:32.571: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 10:59:32.571: [INFO] Profiles total count: 1
+2026-09-12 10:59:32.571: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 10:59:32.571: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 10:59:32.571: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 10:59:32.571: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 10:59:32.571: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 10:59:32.571: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:01:35.578: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:03:07.259: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:03:07.259: [INFO] Profiles total count: 1
+2026-09-12 11:03:07.259: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:03:07.259: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:03:07.259: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:03:07.259: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:03:07.259: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:03:07.259: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:04:06.564: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:04:37.153: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:04:37.153: [INFO] Profiles total count: 1
+2026-09-12 11:04:37.153: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:04:37.153: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:04:37.153: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:04:37.153: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:04:37.153: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:04:37.153: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:04:37.494: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:07:54.904: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:07:54.904: [INFO] Profiles total count: 1
+2026-09-12 11:07:54.904: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:07:54.904: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:07:54.904: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:07:54.904: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:07:54.904: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:07:54.904: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:11:36.581: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:18:05.345: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:18:05.345: [INFO] Profiles total count: 1
+2026-09-12 11:18:05.345: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:18:05.345: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:18:05.345: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:18:05.345: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:18:05.345: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:18:05.345: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:18:19.709: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:18:22.306: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:18:22.306: [INFO] Profiles total count: 1
+2026-09-12 11:18:22.306: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:18:22.306: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:18:22.306: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:18:22.306: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:18:22.306: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:18:22.306: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:18:32.713: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:19:11.589: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:19:11.589: [INFO] Profiles total count: 1
+2026-09-12 11:19:11.589: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:19:11.589: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:19:11.589: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:19:11.589: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:19:11.589: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:19:11.589: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:20:09.759: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:24:23.080: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:24:23.080: [INFO] Profiles total count: 1
+2026-09-12 11:24:23.080: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-12 11:24:23.080: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-12 11:24:23.080: [INFO] OnDoneLoading sync enabled: 0
+2026-09-12 11:24:23.081: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-12 11:24:23.081: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-12 11:24:23.081: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-12 11:24:38.466: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:23:12.846: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:23:12.846: [INFO] Profiles total count: 1
+2026-09-14 21:23:12.846: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:23:12.846: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:23:12.846: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:23:12.846: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:23:12.846: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:23:12.846: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:24:24.802: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:27:52.641: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:27:52.641: [INFO] Profiles total count: 1
+2026-09-14 21:27:52.641: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:27:52.641: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:27:52.641: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:27:52.641: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:27:52.641: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:27:52.641: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:27:52.839: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:33:47.314: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:33:47.314: [INFO] Profiles total count: 1
+2026-09-14 21:33:47.314: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:33:47.314: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:33:47.314: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:33:47.314: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:33:47.314: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:33:47.314: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:35:28.874: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:36:56.161: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:36:56.161: [INFO] Profiles total count: 1
+2026-09-14 21:36:56.161: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:36:56.161: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:36:56.161: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:36:56.161: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:36:56.161: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:36:56.161: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:36:56.419: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:37:50.323: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:37:50.323: [INFO] Profiles total count: 1
+2026-09-14 21:37:50.323: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:37:50.323: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:37:50.323: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:37:50.323: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:37:50.323: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:37:50.323: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:42:34.026: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:43:17.708: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:43:17.709: [INFO] Profiles total count: 1
+2026-09-14 21:43:17.709: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:43:17.709: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:43:17.709: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:43:17.709: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:43:17.709: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:43:17.709: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:43:53.639: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:45:09.428: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:45:09.428: [INFO] Profiles total count: 1
+2026-09-14 21:45:09.428: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:45:09.428: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:45:09.428: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:45:09.428: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:45:09.428: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:45:09.428: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:46:12.363: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:46:50.707: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:46:50.707: [INFO] Profiles total count: 1
+2026-09-14 21:46:50.707: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:46:50.707: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:46:50.707: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:46:50.707: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:46:50.707: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:46:50.707: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:51:13.274: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:51:19.732: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:51:19.732: [INFO] Profiles total count: 1
+2026-09-14 21:51:19.732: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:51:19.732: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:51:19.732: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:51:19.732: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:51:19.732: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:51:19.732: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:51:45.102: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:53:10.601: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:53:10.601: [INFO] Profiles total count: 1
+2026-09-14 21:53:10.601: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:53:10.601: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:53:10.601: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:53:10.601: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:53:10.601: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:53:10.601: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:57:07.092: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 21:59:58.360: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:59:58.360: [INFO] Profiles total count: 1
+2026-09-14 21:59:58.360: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 21:59:58.360: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 21:59:58.360: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 21:59:58.360: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 21:59:58.360: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 21:59:58.360: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 22:00:16.072: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 22:00:46.665: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 22:00:46.665: [INFO] Profiles total count: 1
+2026-09-14 22:00:46.665: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-14 22:00:46.665: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 22:00:46.665: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 22:00:46.665: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 22:00:46.665: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 22:00:46.665: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 22:04:05.206: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 21:52:50.454: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 21:52:50.455: [INFO] Profiles total count: 1
+2026-09-15 21:52:50.455: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 21:52:50.455: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 21:52:50.455: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 21:52:50.455: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 21:52:50.455: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 21:52:50.455: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:02:24.707: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:02:31.671: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:02:31.671: [INFO] Profiles total count: 1
+2026-09-15 22:02:31.671: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:02:31.671: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:02:31.671: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:02:31.671: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:02:31.671: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:02:31.671: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:05:51.590: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:06:12.470: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:06:12.470: [INFO] Profiles total count: 1
+2026-09-15 22:06:12.470: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:06:12.470: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:06:12.470: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:06:12.470: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:06:12.470: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:06:12.470: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:07:12.802: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:07:21.804: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:07:21.804: [INFO] Profiles total count: 1
+2026-09-15 22:07:21.804: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:07:21.804: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:07:21.804: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:07:21.804: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:07:21.804: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:07:21.804: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:07:28.321: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:08:36.513: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:08:36.513: [INFO] Profiles total count: 1
+2026-09-15 22:08:36.513: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:08:36.513: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:08:36.513: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:08:36.513: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:08:36.513: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:08:36.513: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:08:39.301: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:11:22.207: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:11:22.207: [INFO] Profiles total count: 1
+2026-09-15 22:11:22.207: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:11:22.207: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:11:22.207: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:11:22.207: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:11:22.207: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:11:22.207: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:11:28.571: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:11:46.429: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:11:46.429: [INFO] Profiles total count: 1
+2026-09-15 22:11:46.429: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:11:46.429: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:11:46.429: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:11:46.429: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:11:46.429: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:11:46.429: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:20:29.093: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:21:51.757: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:21:51.757: [INFO] Profiles total count: 1
+2026-09-15 22:21:51.757: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:21:51.757: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:21:51.757: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:21:51.757: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:21:51.757: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:21:51.757: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:22:02.058: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:23:31.677: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:23:31.677: [INFO] Profiles total count: 1
+2026-09-15 22:23:31.677: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:23:31.677: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:23:31.677: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:23:31.677: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:23:31.677: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:23:31.677: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:23:31.794: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:24:25.426: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:24:25.426: [INFO] Profiles total count: 1
+2026-09-15 22:24:25.426: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:24:25.426: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:24:25.426: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:24:25.426: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:24:25.426: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:24:25.426: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:25:06.768: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:25:50.142: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:25:50.142: [INFO] Profiles total count: 1
+2026-09-15 22:25:50.142: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:25:50.142: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:25:50.142: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:25:50.142: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:25:50.142: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:25:50.142: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:28:51.369: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:29:48.818: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:29:48.818: [INFO] Profiles total count: 1
+2026-09-15 22:29:48.818: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:29:48.818: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:29:48.818: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:29:48.818: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:29:48.818: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:29:48.818: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:33:32.917: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:33:36.694: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:33:36.694: [INFO] Profiles total count: 1
+2026-09-15 22:33:36.694: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-15 22:33:36.694: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-15 22:33:36.694: [INFO] OnDoneLoading sync enabled: 0
+2026-09-15 22:33:36.694: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-15 22:33:36.694: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-15 22:33:36.694: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-15 22:34:28.030: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:10:11.266: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:10:11.266: [INFO] Profiles total count: 1
+2026-09-16 21:10:11.266: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-16 21:10:11.266: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:10:11.266: [INFO] OnDoneLoading sync enabled: 0
+2026-09-16 21:10:11.266: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-16 21:10:11.266: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-16 21:10:11.266: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:11:55.961: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:13:31.319: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:31.319: [INFO] Profiles total count: 1
+2026-09-16 21:13:31.319: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-16 21:13:31.319: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:31.319: [INFO] OnDoneLoading sync enabled: 0
+2026-09-16 21:13:31.319: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-16 21:13:31.319: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-16 21:13:31.319: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:13:35.266: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:13:37.488: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:37.488: [INFO] Profiles total count: 1
+2026-09-16 21:13:37.488: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-16 21:13:37.488: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:37.488: [INFO] OnDoneLoading sync enabled: 0
+2026-09-16 21:13:37.488: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-16 21:13:37.488: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-16 21:13:37.488: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:13:37.790: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:13:47.821: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:47.821: [INFO] Profiles total count: 1
+2026-09-16 21:13:47.821: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-16 21:13:47.821: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:13:47.821: [INFO] OnDoneLoading sync enabled: 0
+2026-09-16 21:13:47.821: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-16 21:13:47.821: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-16 21:13:47.821: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:18:40.459: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 21:18:41.917: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:18:41.917: [INFO] Profiles total count: 1
+2026-09-16 21:18:41.917: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-16 21:18:41.917: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-16 21:18:41.917: [INFO] OnDoneLoading sync enabled: 0
+2026-09-16 21:18:41.917: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-16 21:18:41.917: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-16 21:18:41.917: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-16 22:10:37.198: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:12:52.079: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:12:52.079: [INFO] Profiles total count: 1
+2026-09-17 19:12:52.079: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-17 19:12:52.079: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:12:52.079: [INFO] OnDoneLoading sync enabled: 0
+2026-09-17 19:12:52.079: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 19:12:52.079: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 19:12:52.079: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:24:59.186: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:25:04.531: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:25:04.531: [INFO] Profiles total count: 1
+2026-09-17 19:25:04.531: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-17 19:25:04.531: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:25:04.531: [INFO] OnDoneLoading sync enabled: 0
+2026-09-17 19:25:04.531: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 19:25:04.531: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 19:25:04.531: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:25:53.554: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:26:36.748: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:26:36.748: [INFO] Profiles total count: 1
+2026-09-17 19:26:36.748: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-17 19:26:36.749: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:26:36.749: [INFO] OnDoneLoading sync enabled: 0
+2026-09-17 19:26:36.749: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 19:26:36.749: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 19:26:36.749: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:28:32.651: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:29:21.064: [INFO] CurrentProfilePath: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:29:21.064: [INFO] Profiles total count: 1
+2026-09-17 19:29:21.064: [INFO] Profile: name=Perfil 1 path=C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=null
+2026-09-17 19:29:21.064: [INFO] LastUsedProfileDir: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-17 19:29:21.064: [INFO] OnDoneLoading sync enabled: 0
+2026-09-17 19:29:21.064: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-17 19:29:21.064: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-17 19:29:21.064: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-17 19:40:23.794: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
