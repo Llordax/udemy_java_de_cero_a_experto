@@ -3774,3 +3774,1365 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.lsp4e 4 0 2026-09-17 21:43:38.330
 !MESSAGE 21:43:38.329 [pool-4-thread-7] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+!SESSION 2026-09-19 02:35:17.348 -----------------------------------------------
+eclipse.buildId=4.37.0.202511091838
+java.version=26.0.2.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-19 02:35:47.096
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-09-19 02:35:57.565
+!MESSAGE Logback config file: C:\Users\alex_\Desktop\Curso de Java\workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-09-19 02:35:58.618
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-09-19 02:35:58.619
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-09-19 02:36:08.893
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alex_'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.206
+!MESSAGE Ignored property with key: null value: null
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.585
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.586
+!MESSAGE Could not send USER event 'Anonymous ID: cfaefefa-1b77-49b7-8377-fad41d4c7761': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.587
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.589
+!MESSAGE Could not send STARTUP event 'startup': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.591
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.595
+!MESSAGE Could not send USER event 'Anonymous ID: cfaefefa-1b77-49b7-8377-fad41d4c7761': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.597
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.599
+!MESSAGE Could not send ACTION event 'showOnStartup': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.614
+!MESSAGE Ignored property with key: null value: null
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.616
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.617
+!MESSAGE Could not send USER event 'Anonymous ID: cfaefefa-1b77-49b7-8377-fad41d4c7761': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.618
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.619
+!MESSAGE Could not send STARTUP event 'startup': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.620
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.621
+!MESSAGE Could not send USER event 'Anonymous ID: cfaefefa-1b77-49b7-8377-fad41d4c7761': no analytics instance present.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.623
+!MESSAGE Could not create Segment Analytics instance, missing writeKey.
+
+!ENTRY org.jboss.tools.usage 2 0 2026-09-19 02:36:10.623
+!MESSAGE Could not send ACTION event 'installed': no analytics instance present.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:02.965
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:02.966
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:02.967
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:02.968
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.169
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.176
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.476
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.481
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.483
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:04.484
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.579
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.588
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.608
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.609
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.611
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:38:32.613
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.469
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.478
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.684
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.685
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.687
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:39:33.688
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:36.865
+!MESSAGE 02:39:36.864 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.CompletionServerCapabilityRegistration - Registering Dynamic Completion Capabality
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.035
+!MESSAGE 02:39:36.890 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.144
+!MESSAGE 02:39:37.143 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.BootJavaLanguageServerComponents - update live process tracker settings - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.151
+!MESSAGE 02:39:37.149 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.155
+!MESSAGE 02:39:37.154 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.BootJavaLanguageServerComponents - update live process tracker settings - start
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.218
+!MESSAGE 02:39:37.213 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Argumentos
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.223
+!MESSAGE 02:39:37.222 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Clase String y operadores
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.231
+!MESSAGE 02:39:37.227 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Clases Abstractas
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.235
+!MESSAGE 02:39:37.235 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Colecciones
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.239
+!MESSAGE 02:39:37.239 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Expresiones Lambda - Programación Funcional
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.252
+!MESSAGE 02:39:37.247 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Interfaces
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.262
+!MESSAGE 02:39:37.261 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Java_JDBC
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.269
+!MESSAGE 02:39:37.267 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Java_JDBC_pool_transacciones
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.282
+!MESSAGE 02:39:37.280 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Matrices
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:39:37.287
+!MESSAGE 02:39:37.285 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project created event: Patrones De Diseño
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.799
+!MESSAGE 02:40:03.794 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: App Facturas Según Diseño UML
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.811
+!MESSAGE 02:40:03.804 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Clase Math
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.821
+!MESSAGE 02:40:03.817 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Clases Abstractas
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.835
+!MESSAGE 02:40:03.831 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Colecciones
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.841
+!MESSAGE 02:40:03.839 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Herencia
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.847
+!MESSAGE 02:40:03.845 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Java8 Date Time
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.853
+!MESSAGE 02:40:03.850 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Matrices
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.860
+!MESSAGE 02:40:03.857 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Patrones De Diseño
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:03.869
+!MESSAGE 02:40:03.863 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: Threads-Hilos y Concurrencia
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:07.528
+!MESSAGE 02:40:05.774 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/Clases%20Wrapper/bin/clasesEquivalentes/AutoboxingInteger.class, file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/Clases%20Wrapper/bin/clasesEquivalentes/WrapperBoolean.class, file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/Clases%20Wrapper/bin/clasesEquivalentes/WrapperInteger.class, file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/Clases%20Wrapper/bin/clasesEquivalentes/WrapperOperadoresRelacionales.class, file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/Clases%20Wrapper/bin/ejemploMetodoGetClass/MetodoGetClass.class]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.604
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.627
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.631
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.648
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.650
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.651
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.652
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.849
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:07.898
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:08.160
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:08.240
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:08.269
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:09.337
+!MESSAGE 02:40:09.202 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file deleted event: 30
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:09.511
+!MESSAGE 02:40:09.477 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: 30
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:19.442
+!MESSAGE 02:40:18.978 [pool-2-thread-5] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:19.629
+!MESSAGE 02:40:19.445 [pool-4-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Creating name env for project 'JDBCSwingCrudProject'
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:20.407
+!MESSAGE 02:40:20.406 [pool-4-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:33.949
+!MESSAGE 02:40:20.411 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:50.446
+!MESSAGE 02:40:50.445 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.708
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.713
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.729
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.730
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.732
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:40:50.732
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:50.952
+!MESSAGE 02:40:50.759 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: 8
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:51.132
+!MESSAGE 02:40:51.131 [Reconciler-1] INFO  o.s.i.v.b.j.r.JdtReconciler - reconciling (JDT): file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java done in 179ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:40:51.132
+!MESSAGE 02:40:51.131 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-09-19 02:41:19.065
+!MESSAGE JavaBuilder handling CoreException while building: JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: release 25 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:90)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:372)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:82)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:721)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:214)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: release 25 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	... 18 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 0 2026-09-19 02:41:19.067
+!MESSAGE release 25 is not found in the system
+!STACK 0
+java.lang.IllegalArgumentException: release 25 is not found in the system
+	at org.eclipse.jdt.internal.core.builder.ClasspathJrtWithReleaseOption.<init>(ClasspathJrtWithReleaseOption.java:89)
+	at org.eclipse.jdt.internal.core.builder.ClasspathLocation.forJrtSystem(ClasspathLocation.java:175)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.computeClasspathLocations(NameEnvironment.java:372)
+	at org.eclipse.jdt.internal.core.builder.NameEnvironment.<init>(NameEnvironment.java:82)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.initializeBuilder(JavaBuilder.java:721)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:214)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.106
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.114
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.117
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.118
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.119
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:19.120
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:41:30.508
+!MESSAGE 02:41:19.451 [pool-2-thread-4] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.758
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.774
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.775
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.776
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:41:30.777
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:41:31.001
+!MESSAGE 02:41:31.000 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:41:31.369
+!MESSAGE 02:41:31.098 [pool-4-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JDBCSwingCrudProject/src/main/java/udemy/allorden/jdbc/JDBCSwingCrudProject.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.559
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.564
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.587
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.590
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.594
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:22.596
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.099
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.126
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.127
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.128
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:42:38.129
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:46.206
+!MESSAGE 02:42:22.610 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/target/classes/META-INF/maven/udemy.allorden.junitapp/udemy.allorden.junitapp/pom.properties, file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/target/classes/META-INF/maven/udemy.allorden.junitapp/udemy.allorden.junitapp/pom.xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:50.646
+!MESSAGE 02:42:50.645 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:51.190
+!MESSAGE 02:42:50.722 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:51.735
+!MESSAGE 02:42:51.733 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 5
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:52.023
+!MESSAGE 02:42:52.022 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:52.037
+!MESSAGE 02:42:52.036 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:52.677
+!MESSAGE 02:42:52.677 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.024
+!MESSAGE 02:42:53.020 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.288
+!MESSAGE 02:42:53.286 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.343
+!MESSAGE 02:42:53.341 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.803
+!MESSAGE 02:42:53.799 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.847
+!MESSAGE 02:42:53.846 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:53.945
+!MESSAGE 02:42:53.944 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:54.272
+!MESSAGE 02:42:54.099 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:54.434
+!MESSAGE 02:42:54.433 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:54.808
+!MESSAGE 02:42:54.540 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:54.810
+!MESSAGE 02:42:54.715 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:54.843
+!MESSAGE 02:42:54.841 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:55.666
+!MESSAGE 02:42:55.632 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:55.856
+!MESSAGE 02:42:55.853 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:55.978
+!MESSAGE 02:42:55.974 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.384
+!MESSAGE 02:42:56.015 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.385
+!MESSAGE 02:42:56.015 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.385
+!MESSAGE 02:42:56.015 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.386
+!MESSAGE 02:42:56.015 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.387
+!MESSAGE 02:42:56.115 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.388
+!MESSAGE 02:42:56.115 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.388
+!MESSAGE 02:42:56.383 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 24
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.966
+!MESSAGE 02:42:56.964 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.997
+!MESSAGE 02:42:56.996 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.997
+!MESSAGE 02:42:56.996 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:56.997
+!MESSAGE 02:42:56.996 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:58.055
+!MESSAGE 02:42:57.083 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:42:58.123
+!MESSAGE 02:42:58.122 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:00.226
+!MESSAGE 02:42:58.622 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:03.583
+!MESSAGE 02:43:03.110 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.270
+!MESSAGE 02:43:04.266 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 34
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.452
+!MESSAGE 02:43:04.417 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.509
+!MESSAGE 02:43:04.508 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.522
+!MESSAGE 02:43:04.521 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.523
+!MESSAGE 02:43:04.521 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.650
+!MESSAGE 02:43:04.647 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:04.679
+!MESSAGE 02:43:04.678 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.155
+!MESSAGE 02:43:05.153 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.216
+!MESSAGE 02:43:05.215 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.320
+!MESSAGE 02:43:05.303 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.445
+!MESSAGE 02:43:05.424 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.551
+!MESSAGE 02:43:05.533 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:05.934
+!MESSAGE 02:43:05.899 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:06.529
+!MESSAGE 02:43:06.516 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:07.778
+!MESSAGE 02:43:06.747 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:07.779
+!MESSAGE 02:43:06.747 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:07.781
+!MESSAGE 02:43:06.747 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:07.783
+!MESSAGE 02:43:07.735 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:07.989
+!MESSAGE 02:43:07.986 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:10.400
+!MESSAGE 02:43:10.398 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 49
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:31.424
+!MESSAGE 02:43:31.093 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:32.379
+!MESSAGE 02:43:32.378 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 54
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:33.551
+!MESSAGE 02:43:33.550 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 55
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:33.807
+!MESSAGE 02:43:33.805 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:37.629
+!MESSAGE 02:43:37.628 [pool-2-thread-6] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:37.676
+!MESSAGE 02:43:37.675 [pool-4-thread-2] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:37.846
+!MESSAGE 02:43:37.845 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 57
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:38.547
+!MESSAGE 02:43:38.547 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:39.502
+!MESSAGE 02:43:39.501 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:39.915
+!MESSAGE 02:43:39.905 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:40.301
+!MESSAGE 02:43:40.301 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:40.879
+!MESSAGE 02:43:40.313 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:40.892
+!MESSAGE 02:43:40.892 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:44.980
+!MESSAGE 02:43:43.093 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:44.984
+!MESSAGE 02:43:43.116 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:45.836
+!MESSAGE 02:43:45.834 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 70
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:52.705
+!MESSAGE 02:43:45.973 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:56.548
+!MESSAGE 02:43:56.545 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 75
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:56.729
+!MESSAGE 02:43:56.726 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:56.791
+!MESSAGE 02:43:56.789 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:58.211
+!MESSAGE 02:43:57.633 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:58.969
+!MESSAGE 02:43:58.968 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:59.116
+!MESSAGE 02:43:59.114 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:43:59.278
+!MESSAGE 02:43:59.149 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:00.478
+!MESSAGE 02:44:00.097 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:00.814
+!MESSAGE 02:44:00.515 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:03.235
+!MESSAGE 02:44:00.858 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:03.237
+!MESSAGE 02:44:00.858 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:04.855
+!MESSAGE 02:44:04.324 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:04.858
+!MESSAGE 02:44:04.852 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 89
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:04.981
+!MESSAGE 02:44:04.979 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:05.117
+!MESSAGE 02:44:05.115 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:09.729
+!MESSAGE 02:44:09.726 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 93
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:12.635
+!MESSAGE 02:44:12.633 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 95
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:13.527
+!MESSAGE 02:44:13.525 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:14.577
+!MESSAGE 02:44:14.576 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:14.579
+!MESSAGE 02:44:14.576 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:14.580
+!MESSAGE 02:44:14.576 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:14.825
+!MESSAGE 02:44:14.672 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:14.951
+!MESSAGE 02:44:14.950 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:15.109
+!MESSAGE 02:44:15.104 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:15.111
+!MESSAGE 02:44:15.104 [pool-2-thread-6] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:15.233
+!MESSAGE 02:44:15.225 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:15.349
+!MESSAGE 02:44:15.327 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:18.376
+!MESSAGE 02:44:18.374 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:19.461
+!MESSAGE 02:44:19.459 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:44:22.305
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:596)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:496)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'version' (position: START_TAG seen ...</version>\r\n<version>... @13:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'version' (position: START_TAG seen ...</version>\r\n<version>... @13:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:159)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1450)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2339)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:641)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:672)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2026-09-19 02:44:22.305
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'version' (position: START_TAG seen ...</version>\r\n<version>... @13:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:596)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:496)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'version' (position: START_TAG seen ...</version>\r\n<version>... @13:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:159)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1450)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2339)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:641)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:672)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:26.163
+!MESSAGE 02:44:22.159 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:26.237
+!MESSAGE 02:44:26.236 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:26.900
+!MESSAGE 02:44:26.900 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:30.630
+!MESSAGE 02:44:30.629 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 109
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:30.807
+!MESSAGE 02:44:30.805 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.220
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.222
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.225
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.227
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:44:34.414
+!MESSAGE 02:44:34.379 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - project changed event: JUnitApp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.538
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.547
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.580
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.581
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.583
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:44:34.584
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:45:12.779
+!MESSAGE 02:45:12.778 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/pom.xml
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-09-19 02:46:22.540
+!MESSAGE Could not get language server due to timeout after 50 milliseconds
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-09-19 02:46:22.600
+!MESSAGE Could not get language server due to timeout after 50 milliseconds
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.612
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.617
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.620
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.621
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.623
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:46:36.626
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:36.647
+!MESSAGE 02:46:36.517 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: [file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:36.768
+!MESSAGE 02:46:36.767 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:37.282
+!MESSAGE 02:46:36.777 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:37.395
+!MESSAGE 02:46:37.394 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:38.669
+!MESSAGE 02:46:37.397 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:39.265
+!MESSAGE 02:46:38.745 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 3
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:39.307
+!MESSAGE 02:46:39.270 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:39.320
+!MESSAGE 02:46:39.316 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:39.542
+!MESSAGE 02:46:39.417 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:40.129
+!MESSAGE 02:46:40.050 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:40.932
+!MESSAGE 02:46:40.648 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:41.214
+!MESSAGE 02:46:41.167 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:41.653
+!MESSAGE 02:46:41.651 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:41.668
+!MESSAGE 02:46:41.664 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:42.103
+!MESSAGE 02:46:42.098 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:42.492
+!MESSAGE 02:46:42.271 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:42.759
+!MESSAGE 02:46:42.749 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:43.443
+!MESSAGE 02:46:43.172 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:43.593
+!MESSAGE 02:46:43.591 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:43.751
+!MESSAGE 02:46:43.750 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 18
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.019
+!MESSAGE 02:46:44.016 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 20
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.193
+!MESSAGE 02:46:44.189 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 21
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.277
+!MESSAGE 02:46:44.264 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.278
+!MESSAGE 02:46:44.276 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.466
+!MESSAGE 02:46:44.386 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:44.764
+!MESSAGE 02:46:44.738 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:45.298
+!MESSAGE 02:46:45.296 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:45.554
+!MESSAGE 02:46:45.552 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 29
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:46.060
+!MESSAGE 02:46:46.058 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:46.090
+!MESSAGE 02:46:46.088 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:47.008
+!MESSAGE 02:46:47.004 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:47.200
+!MESSAGE 02:46:47.195 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 32
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:47.467
+!MESSAGE 02:46:47.464 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:47.661
+!MESSAGE 02:46:47.534 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:48.405
+!MESSAGE 02:46:48.135 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:56.237
+!MESSAGE 02:46:48.408 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:56.418
+!MESSAGE 02:46:56.327 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:57.067
+!MESSAGE 02:46:56.849 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:57.070
+!MESSAGE 02:46:57.064 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:57.630
+!MESSAGE 02:46:57.624 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:58.066
+!MESSAGE 02:46:57.872 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:58.260
+!MESSAGE 02:46:58.258 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:58.677
+!MESSAGE 02:46:58.676 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 46
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:59.151
+!MESSAGE 02:46:59.126 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:59.712
+!MESSAGE 02:46:59.710 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 49
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:59.864
+!MESSAGE 02:46:59.861 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:46:59.979
+!MESSAGE 02:46:59.975 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:00.183
+!MESSAGE 02:47:00.181 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 53
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:00.686
+!MESSAGE 02:47:00.684 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:00.789
+!MESSAGE 02:47:00.712 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:01.293
+!MESSAGE 02:47:01.289 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:02.105
+!MESSAGE 02:47:02.103 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 2ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:02.107
+!MESSAGE 02:47:02.106 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 58
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:02.619
+!MESSAGE 02:47:02.611 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:02.627
+!MESSAGE 02:47:02.626 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:35.563
+!MESSAGE 02:47:35.561 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:36.135
+!MESSAGE 02:47:36.133 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:55.384
+!MESSAGE 02:47:55.382 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:55.386
+!MESSAGE 02:47:55.386 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:55.388
+!MESSAGE 02:47:55.388 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 67
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:55.898
+!MESSAGE 02:47:55.895 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:47:58.608
+!MESSAGE 02:47:58.606 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:04.194
+!MESSAGE 02:48:03.828 [pool-2-thread-9] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:04.221
+!MESSAGE 02:48:04.218 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:05.537
+!MESSAGE 02:48:05.069 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:05.540
+!MESSAGE 02:48:05.535 [Reconciler-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:06.461
+!MESSAGE 02:48:05.956 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:06.478
+!MESSAGE 02:48:06.477 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:08.091
+!MESSAGE 02:48:08.090 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:08.898
+!MESSAGE 02:48:08.408 [pool-4-thread-3] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:09.059
+!MESSAGE 02:48:09.057 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 76
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:09.480
+!MESSAGE 02:48:09.205 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:09.483
+!MESSAGE 02:48:09.436 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:10.508
+!MESSAGE 02:48:10.056 [pool-2-thread-8] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:10.510
+!MESSAGE 02:48:10.361 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 1ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:11.155
+!MESSAGE 02:48:10.649 [pool-13-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:11.532
+!MESSAGE 02:48:11.531 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.377
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.378
+!MESSAGE Plugin is modifying compileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.380
+!MESSAGE Plugin is modifying compileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addCompileSourceRoot()/removeCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.381
+!MESSAGE Plugin is modifying testCompileSourceRoots through clear(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:48:12.382
+!MESSAGE Plugin is modifying testCompileSourceRoots through add(), which will not work in Maven 4.0.0. Use MavenProject.addTestCompileSourceRoot()/removeTestCompileSourceRoot() methods instead. If using a plugin, please upgrade to the latest version or report the issue to the plugin maintainer. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:48:12.914
+!MESSAGE 02:48:12.409 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/target/classes/udemy/allorden/junit5app/ejemplos/models/Cuenta.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:49:35.864
+!MESSAGE 02:48:54.011 [pool-13-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp/src/main/java/udemy/allorden/junit5app/ejemplos/models/Cuenta.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:49:35.864
+!MESSAGE 02:49:11.357 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: 26
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:01.541
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:01.541
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:01.544
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:01.544
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:01.560
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2007)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:01.560
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:51:07.646
+!MESSAGE 02:51:07.624 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: 15
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:51:08.641
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:55.273
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:55.273
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:55.274
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:55.275
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2026-09-19 02:51:55.280
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1911)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1785)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:66)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:52)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2007)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:137)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:897)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1047)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:462)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:342)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:281)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2026-09-19 02:51:55.280
+!MESSAGE Launch configuration JDBCSwingCrudProject references closed project JDBCSwingCrudProject
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:51:59.623
+!MESSAGE 02:51:59.619 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Removing and cleaning up name env for project file:/C:/Users/alex_/Desktop/Curso%20de%20Java/workspace/JUnitApp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-09-19 02:54:27.457
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-09-19 02:54:30.549
+!MESSAGE 02:54:26.103 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file created event: 15
+
+!ENTRY org.eclipse.egit.core 4 0 2026-09-19 03:02:58.141
+!MESSAGE An exception occurred during push on URI https://github.com/Llordax/udemy_java_de_cero_a_experto.git: https://github.com/Llordax/udemy_java_de_cero_a_experto.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Llordax/udemy_java_de_cero_a_experto.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2026-09-19 03:02:58.147
+!MESSAGE Can't connect to any repository: https://github.com/Llordax/udemy_java_de_cero_a_experto.git (https://github.com/Llordax/udemy_java_de_cero_a_experto.git: not authorized)

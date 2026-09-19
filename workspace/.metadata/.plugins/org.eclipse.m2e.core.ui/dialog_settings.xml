@@ -45,14 +45,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="udemy.allorden.junitapp"/>
 			<item value="JDBCSwingCrudProject"/>
 			<item value="udemy.allorden.java.jdbc"/>
 		</list>
 		<list key="name">
+			<item value="JUnitApp"/>
 			<item value="JDBCSwingCrudProject"/>
 			<item value="Java_JDBC"/>
 		</list>
 		<list key="artifactId">
+			<item value="udemy.allorden.junitapp"/>
 			<item value="JDBCSwingCrudProject"/>
 			<item value="java_jdbc"/>
 		</list>
