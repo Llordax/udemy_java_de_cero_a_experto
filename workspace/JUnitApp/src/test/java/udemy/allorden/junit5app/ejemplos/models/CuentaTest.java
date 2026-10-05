@@ -7,8 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
+import static org.junit.jupiter.api.Assumptions.*;
 
 import java.math.BigDecimal;
+import java.util.Map;
 import java.util.Properties;
 
 import org.junit.jupiter.api.AfterAll;
@@ -18,9 +20,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.DisabledIfEnvironmentVariable;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 import org.junit.jupiter.api.condition.DisabledOnJre;
 import org.junit.jupiter.api.condition.DisabledOnOs;
+import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
 import org.junit.jupiter.api.condition.EnabledIfSystemProperty;
 import org.junit.jupiter.api.condition.EnabledOnJre;
 import org.junit.jupiter.api.condition.EnabledOnOs;
@@ -236,4 +240,74 @@ class CuentaTest {
 	@Test
 	@EnabledIfSystemProperty(named = "ENV", matches = "dev")
 	void testDev() {}
+	
+	@Test
+	void imprimirVariablesAmbiente() {
+		Map<String, String> getenv = System.getenv();
+		getenv.forEach((k, v) -> System.out.println(k + " = " + v));
+	}
+	
+	@Test
+	@EnabledIfEnvironmentVariable(named = "JAVA_HOME", matches = ".*jdk-25.0.4.1.*")
+	void testJavaHome() {}
+	
+	
+	@Test
+	@EnabledIfEnvironmentVariable(named = "NUMBER_OF_PROCESSORS", matches = "8")
+	void testProcesadores() {}
+	
+	/**
+	 * Este método para que funcione:
+	 * --> Run Configurations
+	 * --> Environment
+	 * --> name = ENVIRONMENT, value = dev
+	 * De lo contrario no funciona
+	 */
+	@Test
+	@EnabledIfEnvironmentVariable(named = "ENVIRONMENT", matches = "dev")
+	void testEnv() {}
+	
+	/**
+	 * Este método para que funcione:
+	 * --> Run Configurations
+	 * --> Environment
+	 * --> name = ENVIRONMENT, value = prod
+	 * De lo contrario sí funciona cuando lo que queremos
+	 * es que no se ejecute el método
+	 */
+	@Test
+	@DisabledIfEnvironmentVariable(named = "ENVIRONMENT", matches = "prod")
+	void testEnvProdDisabled() {}
+	
+	/**
+	 * Este método para que funcione:
+	 * --> Run Configurations
+	 * --> Arguments
+	 * --> VM Arguments: -ea -DENV=dev
+	 * De lo contrario no funciona
+	 */
+	@Test
+	@DisplayName("Test Saldo Cuenta Dev")
+	void testSaldoCuentaDev() {
+		boolean esDev = "dev".equals(System.getProperty("ENV"));
+		assumeTrue(esDev);
+		
+		assertNotNull(cuenta.getSaldo());
+		assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
+		assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+	}
+	
+	@Test
+	@DisplayName("Test Saldo Cuenta Dev 2")
+	void testSaldoCuentaDev2() {
+		boolean esDev = "dev".equals(System.getProperty("ENV"));
+		assumingThat(esDev, () -> {
+			assertNotNull(cuenta.getSaldo());
+			assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
+		});
+		
+		assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+	}
 }
