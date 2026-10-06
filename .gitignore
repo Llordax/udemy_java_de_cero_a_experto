@@ -1,0 +1,7 @@
+# Ignorar configuración interna de Eclipse
+**/workspace/.metadata/
+.metadata/
+
+# Ignorar archivos compilados por Maven y Java
+**/target/
+*.class
