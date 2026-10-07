@@ -384,6 +384,23 @@ class CuentaTest {
 	}
 	
 	@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
+	@DisplayName("Comprobando el saldo del débito de la cuenta con CsvSource")
+	@CsvSource({"200, 100, John, Andrés", "250, 200, José, José", "300, 300, Marcos, Marcos", 
+		"510, 500, Diego, Nacho", "750, 700, Aaron, Aaron", "1000, 1000, Elizeu, Antonio"})
+	void testDebitoCuentaCsvSource2(String saldo, String monto, String esperado, String actual) {
+		System.out.println(saldo + " -> " + monto);
+		
+		cuenta.setSaldo(new BigDecimal(saldo));
+		cuenta.debito(new BigDecimal(monto));
+		cuenta.setPersona(actual);
+		
+		assertNotNull(cuenta.getSaldo());
+		assertNotNull(cuenta.getPersona());
+		assertEquals(esperado, actual);
+		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+	}
+	
+	@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
 	@DisplayName("Comprobando el saldo del débito de la cuenta con CsvFileSource")
 	@CsvFileSource(resources = "/data.csv")
 	void testDebitoCuentaCsvFileSource(String monto) {
