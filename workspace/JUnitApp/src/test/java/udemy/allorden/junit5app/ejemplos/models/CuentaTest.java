@@ -1,20 +1,15 @@
 package udemy.allorden.junit5app.ejemplos.models;
 
-import static org.junit.jupiter.api.Assertions.assertAll;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
-import static org.junit.jupiter.api.Assumptions.assumeTrue;
-import static org.junit.jupiter.api.Assumptions.assumingThat;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Assumptions;
 
 import java.math.BigDecimal;
+import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -27,6 +22,9 @@ import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
+import org.junit.jupiter.api.TestReporter;
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.api.condition.DisabledIfEnvironmentVariable;
 import org.junit.jupiter.api.condition.DisabledIfSystemProperty;
 import org.junit.jupiter.api.condition.DisabledOnJre;
@@ -47,12 +45,20 @@ import udemy.allorden.junit5app.ejemplos.exceptions.DineroInsuficienteException;
 
 //@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class CuentaTest {
-	Cuenta cuenta;
+	private Cuenta cuenta;
+	private TestInfo testInfo;
+	private TestReporter testReporter;
 	
 	@BeforeEach
-	void initMetodoTest() {
+	void initMetodoTest(TestInfo testInfo, TestReporter testReporter) {
 		this.cuenta = new Cuenta("Aaron", new BigDecimal("1000.12345"));
+		this.testInfo = testInfo;
+		this.testReporter = testReporter;
+		
 		System.out.println("Iniciando el método prueba...");
+		testReporter.publishEntry(" ejecutando: " + testInfo.getDisplayName() + " " 
+				+ testInfo.getTestMethod().orElse(null).getName()
+				+ " con las etiquetas " + testInfo.getTags());
 	}
 	
 	@AfterEach
@@ -76,23 +82,27 @@ class CuentaTest {
 		@Test
 		@DisplayName("Probando nombre de la cuenta")
 		void testNombreCuenta() {
+			testReporter.publishEntry(testInfo.getTags().toString());
+			if (testInfo.getTags().contains("cuenta"))
+				testReporter.publishEntry("Hacer algo con la etiqueta cuenta");
+			
 			//cuenta.setPersona("Aaron");
 			
 			String esperado = "Aaron";
 			String real = cuenta.getPersona();
 
-			assertNotNull(real, () -> "La cuenta no puede ser null");
-			assertEquals(esperado, real, () -> "El nombre de la cuenta no es el nombre esperado. Valor esperado = " + esperado + " | valor real = " + real);
-			assertTrue(real.equals("Aaron"), () -> "Nombre cuenta esperada deber ser igual a la real");
+			Assertions.assertNotNull(real, () -> "La cuenta no puede ser null");
+			Assertions.assertEquals(esperado, real, () -> "El nombre de la cuenta no es el nombre esperado. Valor esperado = " + esperado + " | valor real = " + real);
+			Assertions.assertTrue(real.equals("Aaron"), () -> "Nombre cuenta esperada deber ser igual a la real");
 		}
 		
 		@Test
 		@DisplayName("Probando el saldo de la cuenta, que no sea null, mayor que cero, valor esperado")
 		void testSaldoCuenta() {
-			assertNotNull(cuenta.getSaldo());
-			assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
-			assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
+			Assertions.assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 		
 		@Test
@@ -102,7 +112,7 @@ class CuentaTest {
 			Cuenta cuenta2 = new Cuenta("Diego García", new BigDecimal("8900.9997"));
 			
 			//assertNotEquals(cuenta2, cuenta);
-			assertEquals(cuenta2, cuenta);
+			Assertions.assertEquals(cuenta2, cuenta);
 		}
 	}
 	
@@ -116,9 +126,9 @@ class CuentaTest {
 			cuenta = new Cuenta("Nacho", new BigDecimal("1000.12345"));
 			cuenta.debito(new BigDecimal(100));
 			
-			assertNotNull(cuenta.getSaldo());
-			assertEquals(900, cuenta.getSaldo().intValue());
-			assertEquals("900.12345", cuenta.getSaldo().toPlainString());
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertEquals(900, cuenta.getSaldo().intValue());
+			Assertions.assertEquals("900.12345", cuenta.getSaldo().toPlainString());
 		}
 		
 		
@@ -128,9 +138,9 @@ class CuentaTest {
 			cuenta = new Cuenta("Nacho", new BigDecimal("1000.12345"));
 			cuenta.credito(new BigDecimal(100));
 			
-			assertNotNull(cuenta.getSaldo());
-			assertEquals(1100, cuenta.getSaldo().intValue());
-			assertEquals("1100.12345", cuenta.getSaldo().toPlainString());
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertEquals(1100, cuenta.getSaldo().intValue());
+			Assertions.assertEquals("1100.12345", cuenta.getSaldo().toPlainString());
 		}
 		
 		@Test
@@ -142,8 +152,8 @@ class CuentaTest {
 			Banco banco = new Banco();
 			banco.setNombre("Trade Republic");
 			banco.transferir(cuenta2, cuenta1, new BigDecimal(500));
-			assertEquals("1000.8989", cuenta2.getSaldo().toPlainString());
-			assertEquals("3000", cuenta1.getSaldo().toPlainString());
+			Assertions.assertEquals("1000.8989", cuenta2.getSaldo().toPlainString());
+			Assertions.assertEquals("3000", cuenta1.getSaldo().toPlainString());
 		}
 	}
 	
@@ -156,14 +166,14 @@ class CuentaTest {
 		void testDineroInsufienteException() {
 			cuenta = new Cuenta("Andrés", new BigDecimal("1000.12345"));
 			
-			Exception exception = assertThrows(DineroInsuficienteException.class, () -> {
+			Exception exception = Assertions.assertThrows(DineroInsuficienteException.class, () -> {
 				cuenta.debito(new BigDecimal(1500));
 			});
 			
 			String real = exception.getMessage();
 			String esperado = "Dinero insuficiente";
 			
-			assertEquals(esperado, real);
+			Assertions.assertEquals(esperado, real);
 		}
 	}
 	
@@ -175,7 +185,7 @@ class CuentaTest {
 		@Disabled
 		@DisplayName("Comprobando las relaciones entre las cuentas y el banco")
 		void testRelacionBancoCuentas() {
-			fail();
+			Assertions.fail();
 			Cuenta cuenta1 = new Cuenta("John Doe", new BigDecimal("2500"));
 			Cuenta cuenta2 = new Cuenta("Andrés Guzman", new BigDecimal("1500.8989"));
 			
@@ -186,29 +196,29 @@ class CuentaTest {
 			banco.setNombre("Trade Republic");
 			banco.transferir(cuenta2, cuenta1, new BigDecimal(500));
 			
-			assertAll(() -> assertEquals("1000.8989", cuenta2.getSaldo().toPlainString(), 
+			Assertions.assertAll(() -> Assertions.assertEquals("1000.8989", cuenta2.getSaldo().toPlainString(), 
 						() -> "El valor del saldo de la cuenta2 no es el valor esperado"), 
 					
-					() -> assertEquals("3000", cuenta1.getSaldo().toPlainString(),
+					() -> Assertions.assertEquals("3000", cuenta1.getSaldo().toPlainString(),
 						() -> "El valor del saldo de la cuenta1 no es el valor esperado"), 
 					
-					() -> assertEquals(2, banco.getCuentas().size(),
+					() -> Assertions.assertEquals(2, banco.getCuentas().size(),
 						() -> "El nº de cuentas no coinciden con la cantidad esperada"),
 					
-					() -> assertEquals("Trade Republic", cuenta1.getBanco().getNombre(),
+					() -> Assertions.assertEquals("Trade Republic", cuenta1.getBanco().getNombre(),
 						() -> "El nombre del banco no coincide con el nombre esperado"),
 					
-					() -> assertEquals("Andrés Guzman", banco.getCuentas().stream()
+					() -> Assertions.assertEquals("Andrés Guzman", banco.getCuentas().stream()
 							.filter(c -> c.getPersona().equals("Andrés Guzman"))
 							.findFirst().get().getPersona(),
 						() -> "El nombre de la persona no coincide con el nombre espeardo"),
 					
-					() -> assertTrue(banco.getCuentas().stream()
+					() -> Assertions.assertTrue(banco.getCuentas().stream()
 							.filter(c -> c.getPersona().equals("Andrés Guzman"))
 							.findFirst().isPresent(),
 						() -> "El valor booleano no coincide con el valor esperado"),
 					
-					() -> assertTrue(banco.getCuentas().stream()
+					() -> Assertions.assertTrue(banco.getCuentas().stream()
 							.anyMatch(c -> c.getPersona().equals("John Doe")),
 						() -> "El valor booleano no coincide con el valor esperado")
 			);
@@ -333,25 +343,25 @@ class CuentaTest {
 	@DisplayName("Test Saldo Cuenta Dev")
 	void testSaldoCuentaDev() {
 		boolean esDev = "dev".equals(System.getProperty("ENV"));
-		assumeTrue(esDev);
+		Assumptions.assumeTrue(esDev);
 		
-		assertNotNull(cuenta.getSaldo());
-		assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
-		assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
-		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+		Assertions.assertNotNull(cuenta.getSaldo());
+		Assertions.assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
+		Assertions.assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+		Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 	}
 	
 	@Test
 	@DisplayName("Test Saldo Cuenta Dev 2")
 	void testSaldoCuentaDev2() {
 		boolean esDev = "dev".equals(System.getProperty("ENV"));
-		assumingThat(esDev, () -> {
-			assertNotNull(cuenta.getSaldo());
-			assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
+		Assumptions.assumingThat(esDev, () -> {
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertEquals(1000.12345, cuenta.getSaldo().doubleValue());
 		});
 		
-		assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
-		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+		Assertions.assertFalse(cuenta.getSaldo().compareTo(BigDecimal.ZERO) < 0);
+		Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 	}
 	
 	@DisplayName("Probando Debito Cuenta Repetir")
@@ -363,9 +373,9 @@ class CuentaTest {
 		cuenta = new Cuenta("Nacho", new BigDecimal("1000.12345"));
 		cuenta.debito(new BigDecimal(100));
 		
-		assertNotNull(cuenta.getSaldo());
-		assertEquals(900, cuenta.getSaldo().intValue());
-		assertEquals("900.12345", cuenta.getSaldo().toPlainString());
+		Assertions.assertNotNull(cuenta.getSaldo());
+		Assertions.assertEquals(900, cuenta.getSaldo().intValue());
+		Assertions.assertEquals("900.12345", cuenta.getSaldo().toPlainString());
 	}
 	
 	@Nested
@@ -376,8 +386,8 @@ class CuentaTest {
 		void testDebitoCuentaValueSource(String monto) {
 			cuenta.debito(new BigDecimal(monto));
 			
-			assertNotNull(cuenta.getSaldo());
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 		
 		@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
@@ -387,8 +397,8 @@ class CuentaTest {
 			System.out.println(index + " -> " + monto);
 			cuenta.debito(new BigDecimal(monto));
 			
-			assertNotNull(cuenta.getSaldo());
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 		
 		@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
@@ -402,10 +412,10 @@ class CuentaTest {
 			cuenta.debito(new BigDecimal(monto));
 			cuenta.setPersona(actual);
 			
-			assertNotNull(cuenta.getSaldo());
-			assertNotNull(cuenta.getPersona());
-			assertEquals(esperado, actual);
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertNotNull(cuenta.getPersona());
+			Assertions.assertEquals(esperado, actual);
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 		
 		@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
@@ -414,8 +424,8 @@ class CuentaTest {
 		void testDebitoCuentaCsvFileSource(String monto) {
 			cuenta.debito(new BigDecimal(monto));
 			
-			assertNotNull(cuenta.getSaldo());
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 		
 		@ParameterizedTest(name = "número {index} ejecutado con valor {0} - {argumentsWithNames}")
@@ -426,10 +436,10 @@ class CuentaTest {
 			cuenta.debito(new BigDecimal(monto));
 			cuenta.setPersona(actual);
 			
-			assertNotNull(cuenta.getSaldo());
-			assertNotNull(cuenta.getPersona());
-			assertEquals(esperado, actual);
-			assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+			Assertions.assertNotNull(cuenta.getSaldo());
+			Assertions.assertNotNull(cuenta.getPersona());
+			Assertions.assertEquals(esperado, actual);
+			Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 		}
 	}
 	
@@ -439,11 +449,35 @@ class CuentaTest {
 	void testDebitoCuentaMethodSource(String monto) {
 		cuenta.debito(new BigDecimal(monto));
 		
-		assertNotNull(cuenta.getSaldo());
-		assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
+		Assertions.assertNotNull(cuenta.getSaldo());
+		Assertions.assertTrue(cuenta.getSaldo().compareTo(BigDecimal.ZERO) > 0);
 	}
 	
 	private static List<String> montoList() {
 		return Arrays.asList("100", "200", "300", "500", "700", "1000");
 	}
+	
+	@Nested
+	@Tag("timeout")
+	class EjemploTimeoutTest {
+		@Test
+		@Timeout(2)
+		void pruebaTimeout() throws InterruptedException {
+			TimeUnit.MILLISECONDS.sleep(100);
+		}
+		
+		@Test
+		@Timeout(value = 1500, unit = TimeUnit.MILLISECONDS)
+		void pruebaTimeout2() throws InterruptedException {
+			TimeUnit.MILLISECONDS.sleep(800);
+		}
+		
+		@Test
+		void testTimeoutAssertions() {
+			Assertions.assertTimeout(Duration.ofSeconds(5), () -> {
+				TimeUnit.MILLISECONDS.sleep(4000);
+			});
+		}
+	}
+	
 }
