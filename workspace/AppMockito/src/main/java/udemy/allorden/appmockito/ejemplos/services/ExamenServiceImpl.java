@@ -1,31 +1,49 @@
 package udemy.allorden.appmockito.ejemplos.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import udemy.allorden.appmockito.ejemplos.models.Examen;
 import udemy.allorden.appmockito.ejemplos.repositories.ExamenRepository;
+import udemy.allorden.appmockito.ejemplos.repositories.PreguntaRepository;
 
 public class ExamenServiceImpl implements ExamenService {
 	private ExamenRepository examenRepository;
+	private PreguntaRepository preguntaRepository;
 	
-	public ExamenServiceImpl(ExamenRepository examenRepository) {
+	public ExamenServiceImpl(ExamenRepository examenRepository, PreguntaRepository preguntaRepository) {
 		super();
 		this.examenRepository = examenRepository;
+		this.preguntaRepository = preguntaRepository;
 	}
 
 	@Override
-	public Examen findExamenPorNombre(String nombre) {
-		Optional<Examen> examenOptional = examenRepository.findAll()
-				.stream()
-				.filter(e -> e.getNombre().contains(nombre))
-				.findFirst();
-		
+	public Optional<Examen> findExamenPorNombre(String nombre) {
+		return examenRepository.findAll()
+			.stream()
+			.filter(e -> e.getNombre().contains(nombre))
+			.findFirst();
+	}
+
+	@Override
+	public Examen findExamenPorNombreConPreguntas(String nombre) {
+		Optional<Examen> examenOptional = findExamenPorNombre(nombre);
 		Examen examen = null;
 		
-		if (examenOptional.isPresent())
+		if (examenOptional.isPresent()) {
 			examen = examenOptional.orElseThrow();
+			List<String> preguntas = preguntaRepository.findPreguntasPorExamenId(examen.getId());
+			examen.setPreguntas(preguntas);
+		}
 		
 		return examen;
 	}
 
+	@Override
+	public Examen guardar(Examen examen) {
+		if (!examen.getPreguntas().isEmpty())
+			preguntaRepository.guardarVarias(examen.getPreguntas());
+		
+		return examenRepository.guardar(examen);
+	}
 }

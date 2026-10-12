@@ -1,9 +1,11 @@
 package udemy.allorden.appmockito.ejemplos.services;
 
+import java.util.Optional;
+
 import udemy.allorden.appmockito.ejemplos.models.Examen;
 
 public interface ExamenService {
-	
-	Examen findExamenPorNombre(String nombre);
-	
+	Optional<Examen> findExamenPorNombre(String nombre);
+	Examen findExamenPorNombreConPreguntas(String nombre);
+	Examen guardar(Examen examen);
 }
