@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>udemy.allorden.webapp.tarea1</groupId>
+  <artifactId>webapp-tarea1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>webapp-tarea1</name>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>jakarta.platform</groupId>
+  		<artifactId>jakarta.jakartaee-api</artifactId>
+  		<version>11.0.0</version>
+  		<scope>provided</scope>
+  	</dependency>
+  </dependencies>
+  
+  <build>
+  	<plugins>
+  		<plugin>
+	  		<artifactId>maven-compiler-plugins</artifactId>
+	  		<version>3.16.0</version>
+  		</plugin>
+  		<plugin>
+  			 <groupId>org.apache.tomcat.maven</groupId>
+	  		<artifactId>tomcat7-maven-plugin</artifactId>
+	  		<version>2.2</version>
+	  		<configuration>
+	  			<url>http://localhost:8080/manager/text</url>
+	  			<username>admin</username>
+	  			<password>12345</password>
+	  		</configuration>
+  		</plugin>
+  		<plugin>
+  			<artifactId>maven-war-plugin</artifactId>
+  			<version>3.5.1</version>
+  		</plugin>
+  	</plugins>
+  </build>
+</project>
