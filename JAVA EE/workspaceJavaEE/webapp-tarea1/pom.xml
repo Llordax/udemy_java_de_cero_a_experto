@@ -3,8 +3,15 @@
   <groupId>udemy.allorden.webapp.tarea1</groupId>
   <artifactId>webapp-tarea1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   <name>webapp-tarea1</name>
   
+  <properties>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
   <dependencies>
   	<dependency>
   		<groupId>jakarta.platform</groupId>
@@ -17,7 +24,7 @@
   <build>
   	<plugins>
   		<plugin>
-	  		<artifactId>maven-compiler-plugins</artifactId>
+	  		<artifactId>maven-compiler-plugin</artifactId>
 	  		<version>3.16.0</version>
   		</plugin>
   		<plugin>
@@ -36,4 +43,5 @@
   		</plugin>
   	</plugins>
   </build>
+  
 </project>
