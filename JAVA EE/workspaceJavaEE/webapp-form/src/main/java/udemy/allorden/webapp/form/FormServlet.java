@@ -2,9 +2,9 @@ package udemy.allorden.webapp.form;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -31,28 +31,28 @@ public class FormServlet extends HttpServlet {
 				req.getParameter("habilitar").equals("on");
 		String secreto = req.getParameter("secreto");
 		
-		List<String> errores = new ArrayList<>();
+		Map<String, String> errores = new HashMap<>();
 		
 		if (username == null || username.isBlank())
-			errores.add("el username es requerido!");
+			errores.put("username","el username es requerido!");
 		
 		if (password == null || password.isBlank())
-			errores.add("la contraseña es requerida!");
+			errores.put("password","la contraseña es requerida!");
 		
 		if (email == null || !email.contains("@"))
-			errores.add("el email es requerido y debe tener un formato de correo");
+			errores.put("email","el email es requerido y debe tener un formato de correo");
 		
 		if (pais == null || pais.isBlank())
-			errores.add("el país es requerido!");
+			errores.put("pais","el país es requerido!");
 		
 		if (lenguajes == null || lenguajes.length == 0)
-			errores.add("debe seleccionar al menos un tema");
+			errores.put("lenguajes", "debe seleccionar al menos un tema");
 		
 		if (roles == null || roles.length == 0)
-			errores.add("debe seleccionar al menos un rol");
+			errores.put("roles", "debe seleccionar al menos un rol");
 		
 		if (idioma == null)
-			errores.add("debe seleccionar un idioma!");
+			errores.put("idioma","debe seleccionar un idioma!");
 		
 		if (errores.isEmpty()) {
 			try (PrintWriter out = resp.getWriter()) {
